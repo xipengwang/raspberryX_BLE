@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		713DFA4A1E9FDD1800DDA6C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DFA491E9FDD1800DDA6C3 /* AppDelegate.swift */; };
+		713DFA4C1E9FDD1800DDA6C3 /* RobotxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DFA4B1E9FDD1800DDA6C3 /* RobotxViewController.swift */; };
+		713DFA4F1E9FDD1800DDA6C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713DFA4D1E9FDD1800DDA6C3 /* Main.storyboard */; };
+		713DFA511E9FDD1800DDA6C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713DFA501E9FDD1800DDA6C3 /* Assets.xcassets */; };
+		713DFA541E9FDD1800DDA6C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713DFA521E9FDD1800DDA6C3 /* LaunchScreen.storyboard */; };
+		713DFA5C1E9FDD7300DDA6C3 /* RobotxDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DFA5B1E9FDD7300DDA6C3 /* RobotxDevice.swift */; };
+		713DFA601EA1743000DDA6C3 /* DevicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DFA5F1EA1743000DDA6C3 /* DevicesTableViewCell.swift */; };
+		713DFA621EA176C300DDA6C3 /* DevicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713DFA611EA176C300DDA6C3 /* DevicesTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		713DFA461E9FDD1800DDA6C3 /* robotx_BLE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = robotx_BLE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		713DFA491E9FDD1800DDA6C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		713DFA4B1E9FDD1800DDA6C3 /* RobotxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotxViewController.swift; sourceTree = "<group>"; };
+		713DFA4E1E9FDD1800DDA6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		713DFA501E9FDD1800DDA6C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		713DFA531E9FDD1800DDA6C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		713DFA551E9FDD1800DDA6C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		713DFA5B1E9FDD7300DDA6C3 /* RobotxDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RobotxDevice.swift; sourceTree = "<group>"; };
+		713DFA5F1EA1743000DDA6C3 /* DevicesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesTableViewCell.swift; sourceTree = "<group>"; };
+		713DFA611EA176C300DDA6C3 /* DevicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		713DFA431E9FDD1800DDA6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		713DFA3D1E9FDD1800DDA6C3 = {
+			isa = PBXGroup;
+			children = (
+				713DFA481E9FDD1800DDA6C3 /* robotx_BLE */,
+				713DFA471E9FDD1800DDA6C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		713DFA471E9FDD1800DDA6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				713DFA461E9FDD1800DDA6C3 /* robotx_BLE.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		713DFA481E9FDD1800DDA6C3 /* robotx_BLE */ = {
+			isa = PBXGroup;
+			children = (
+				713DFA491E9FDD1800DDA6C3 /* AppDelegate.swift */,
+				713DFA4B1E9FDD1800DDA6C3 /* RobotxViewController.swift */,
+				713DFA611EA176C300DDA6C3 /* DevicesTableViewController.swift */,
+				713DFA5F1EA1743000DDA6C3 /* DevicesTableViewCell.swift */,
+				713DFA5B1E9FDD7300DDA6C3 /* RobotxDevice.swift */,
+				713DFA4D1E9FDD1800DDA6C3 /* Main.storyboard */,
+				713DFA501E9FDD1800DDA6C3 /* Assets.xcassets */,
+				713DFA521E9FDD1800DDA6C3 /* LaunchScreen.storyboard */,
+				713DFA551E9FDD1800DDA6C3 /* Info.plist */,
+			);
+			path = robotx_BLE;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		713DFA451E9FDD1800DDA6C3 /* robotx_BLE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 713DFA581E9FDD1800DDA6C3 /* Build configuration list for PBXNativeTarget "robotx_BLE" */;
+			buildPhases = (
+				713DFA421E9FDD1800DDA6C3 /* Sources */,
+				713DFA431E9FDD1800DDA6C3 /* Frameworks */,
+				713DFA441E9FDD1800DDA6C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = robotx_BLE;
+			productName = robotx_BLE;
+			productReference = 713DFA461E9FDD1800DDA6C3 /* robotx_BLE.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		713DFA3E1E9FDD1800DDA6C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Xipeng Wang";
+				TargetAttributes = {
+					713DFA451E9FDD1800DDA6C3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = QUWC36RD76;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 713DFA411E9FDD1800DDA6C3 /* Build configuration list for PBXProject "robotx_BLE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 713DFA3D1E9FDD1800DDA6C3;
+			productRefGroup = 713DFA471E9FDD1800DDA6C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				713DFA451E9FDD1800DDA6C3 /* robotx_BLE */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		713DFA441E9FDD1800DDA6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713DFA541E9FDD1800DDA6C3 /* LaunchScreen.storyboard in Resources */,
+				713DFA511E9FDD1800DDA6C3 /* Assets.xcassets in Resources */,
+				713DFA4F1E9FDD1800DDA6C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		713DFA421E9FDD1800DDA6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713DFA4C1E9FDD1800DDA6C3 /* RobotxViewController.swift in Sources */,
+				713DFA5C1E9FDD7300DDA6C3 /* RobotxDevice.swift in Sources */,
+				713DFA621EA176C300DDA6C3 /* DevicesTableViewController.swift in Sources */,
+				713DFA4A1E9FDD1800DDA6C3 /* AppDelegate.swift in Sources */,
+				713DFA601EA1743000DDA6C3 /* DevicesTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		713DFA4D1E9FDD1800DDA6C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713DFA4E1E9FDD1800DDA6C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		713DFA521E9FDD1800DDA6C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713DFA531E9FDD1800DDA6C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		713DFA561E9FDD1800DDA6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		713DFA571E9FDD1800DDA6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		713DFA591E9FDD1800DDA6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QUWC36RD76;
+				INFOPLIST_FILE = robotx_BLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "robotx.robotx-BLE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		713DFA5A1E9FDD1800DDA6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QUWC36RD76;
+				INFOPLIST_FILE = robotx_BLE/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "robotx.robotx-BLE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		713DFA411E9FDD1800DDA6C3 /* Build configuration list for PBXProject "robotx_BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713DFA561E9FDD1800DDA6C3 /* Debug */,
+				713DFA571E9FDD1800DDA6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		713DFA581E9FDD1800DDA6C3 /* Build configuration list for PBXNativeTarget "robotx_BLE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				713DFA591E9FDD1800DDA6C3 /* Debug */,
+				713DFA5A1E9FDD1800DDA6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 713DFA3E1E9FDD1800DDA6C3 /* Project object */;
+}
